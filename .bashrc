@@ -18,3 +18,4 @@ fi
 export PATH=$PATH:/home/ediso/.local/bin:
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
+. "$HOME/.cargo/env"
