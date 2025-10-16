@@ -31,3 +31,4 @@ require'nvim-treesitter.configs'.setup {
 }
 vim.lsp.enable('rust')
 vim.lsp.enable('luals')
+vim.lsp.enable('hls')
