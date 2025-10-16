@@ -5,8 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+alias ls='eza'
+alias grep='rg'
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
 
