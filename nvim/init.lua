@@ -27,8 +27,9 @@ vim.cmd("colorscheme tokyonight-night")
 require'nvim-treesitter.configs'.setup {
     highlight = { enable = true},
 
-    ensure_installed = { "rust", "java", "lua", "haskell"},
+    ensure_installed = { "rust", "java", "lua", "haskell", "python"},
 }
 vim.lsp.enable('rust')
 vim.lsp.enable('luals')
 vim.lsp.enable('hls')
+vim.lsp.enable('basedpyright')
