@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='eza'
-alias grep='rg'
+#alias grep='rg'
 PS1='[\u@\h \W]\$ '
 . "$HOME/.cargo/env"
 
@@ -17,5 +17,5 @@ fi
 
 export PATH=$PATH:/home/ediso/.local/bin:
 export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
-
+eval "$(zoxide init bash)"
 . "$HOME/.cargo/env"
